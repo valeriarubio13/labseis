@@ -37,6 +37,7 @@ def main():
         if selection=='2':
             decoded_password=decode_function(encoded_password)
             print(f'The encoded password is {encoded_password}, and the original password is {decoded_password}')
-
-
+        if selection=='3':
+            break
+            
 main()
